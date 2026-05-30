@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/zyx77550/residual-publish/main/branding/LOGO_full_noir_bleu.svg" alt="Residual Labs" width="220" />
+  <img src="logo.svg" alt="Residual Labs" width="220" />
   <br/>
   <h1>Zakaria Gharzouli</h1>
   <h3>Solo Founder & Systems Architect @ <a href="https://residual-labs.fr">Residual Labs</a></h3>
