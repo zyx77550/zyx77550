@@ -1,36 +1,48 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/zyx77550/residual-publish/main/branding/LOGO_full_noir_bleu.svg" alt="Residual Labs" width="200" />
-  <h1>Hi, I'm Zakaria Gharzouli 👋</h1>
-  <h3>Solo Founder @ <a href="https://residual-labs.fr">Residual Labs</a></h3>
-  <p><i>Building automated B2B SaaS ecosystems with extreme focus.</i></p>
+  <img src="https://raw.githubusercontent.com/zyx77550/residual-publish/main/branding/LOGO_full_noir_bleu.svg" alt="Residual Labs" width="220" />
+  <br/>
+  <h1>Zakaria Gharzouli</h1>
+  <h3>Solo Founder & Systems Architect @ <a href="https://residual-labs.fr">Residual Labs</a></h3>
+  <p><i>Architecting robust, zero-maintenance B2B SaaS ecosystems.</i></p>
 </div>
 
 ---
 
-## 🛠️ Tech Stack & Philosophy
-I build highly scalable, data-driven applications focused on extreme automation, BYOK (Bring Your Own Key) architecture, and zero-bullshit UX.
+## 🧠 About Me
+I build highly scalable, automated digital ecosystems. My work focuses on replacing repetitive workflows with intelligent, asynchronous systems. I design products with a strict adherence to security, performance, and clean architecture.
 
-<div align="center">
+## 🚀 The Residual Ecosystem
+A suite of interconnected B2B platforms built to operate autonomously:
+- **Residual Audit** — Automated technical & commercial web auditing engine (30+ OSINT sources, AI-driven reporting).
+- **Residual Reach** — High-performance B2B outreach & workflow automation.
+- **Residual Publish** — Data-driven, cross-platform SEO content generation.
+- **Residual QR** — Dynamic tracking and analytics infrastructure.
+
+## ⚙️ Engineering Philosophy
+- **Security First:** Strict Row-Level Security (RLS), Bring Your Own Key (BYOK) architecture, and AES-256-GCM encryption.
+- **Extreme Automation:** Complex workflows delegated to robust background engines.
+- **Zero-Bullshit UX:** Minimalist, functional, and fast interfaces.
+
+## 🛠️ Core Stack
+<div align="left">
   <img src="https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trigger.dev-000000?style=for-the-badge&logo=lightning&logoColor=white" />
+  <img src="https://img.shields.io/badge/Trigger.dev%20V3-000000?style=for-the-badge&logo=lightning&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </div>
 
 <br/>
 
-## 🚀 The Residual Ecosystem
-
-- **Residual Audit** — Automated technical and commercial SEO web auditing API.
-- **Residual Publish** — Data-driven SEO article generation and cross-platform publishing.
-- **Residual Reach** — B2B cold outreach engine using automated prospecting pipelines.
-- **Residual QR** — High-performance QR code analytics engine.
-
----
 <div align="center">
-  <i>Automatisation extrême, BYOK, Zéro Bullshit.</i><br/>
-  <a href="mailto:zakaria@residual-labs.fr">zakaria@residual-labs.fr</a>
+  <a href="mailto:zakaria@residual-labs.fr">
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/zakaria-gharzouli-05559a1a5/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://residual-labs.fr">
+    <img src="https://img.shields.io/badge/Website-018AC9?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
+  </a>
 </div>
