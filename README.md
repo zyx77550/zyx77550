@@ -12,16 +12,24 @@
 I build highly scalable, automated digital ecosystems. My work focuses on replacing repetitive workflows with intelligent, asynchronous systems. I design products with a strict adherence to security, performance, and clean architecture.
 
 ## 🚀 The Residual Ecosystem
-A suite of interconnected B2B platforms built to operate autonomously:
-- **Residual Audit** — Automated technical & commercial web auditing engine (30+ OSINT sources, AI-driven reporting).
-- **Residual Reach** — High-performance B2B outreach & workflow automation.
-- **Residual Publish** — Data-driven, cross-platform SEO content generation.
-- **Residual QR** — Dynamic tracking and analytics infrastructure.
+
+A suite of interconnected B2B platforms — each product feeds the next in a closed loop.
+
+| Product | Description | Status |
+|---------|-------------|--------|
+| [**Residual Audit**](https://audit.residual-labs.fr) | Automated technical & commercial web auditing engine — 30+ OSINT sources, AI-driven reporting | ![Live](https://img.shields.io/badge/LIVE-2ecc71?style=flat-square) |
+| [**Residual Reach**](https://reach.residual-labs.fr) | B2B cold outreach automation — AI email generation, CRM Obsidian, WhatsApp routing | ![Live](https://img.shields.io/badge/LIVE-2ecc71?style=flat-square) |
+| [**Residual Publish**](https://publish.residual-labs.fr) | AI content generation & multi-platform publishing — Mistral streaming, WordPress, Twitter/LinkedIn | ![Live](https://img.shields.io/badge/LIVE-2ecc71?style=flat-square) |
+| [**Residual QR**](https://qr.residual-labs.fr) | Dynamic QR codes with tracking & analytics | ![Live](https://img.shields.io/badge/LIVE-2ecc71?style=flat-square) |
+| **Residual Visuals** | AI-powered visual content generation | ![Soon](https://img.shields.io/badge/SOON-95a5a6?style=flat-square) |
+
+**Ecosystem loop :** `Audit → Publish → Reach → Claude Code MCP ↺`
 
 ## ⚙️ Engineering Philosophy
 - **Security First:** Strict Row-Level Security (RLS), Bring Your Own Key (BYOK) architecture, and AES-256-GCM encryption.
-- **Extreme Automation:** Complex workflows delegated to robust background engines.
+- **Extreme Automation:** Complex workflows delegated to robust background engines (Trigger.dev V3).
 - **Zero-Bullshit UX:** Minimalist, functional, and fast interfaces.
+- **MCP-native:** All products expose Claude Code MCP servers for AI-assisted development.
 
 ## 🛠️ Core Stack
 <div align="left">
@@ -31,6 +39,7 @@ A suite of interconnected B2B platforms built to operate autonomously:
   <img src="https://img.shields.io/badge/Trigger.dev%20V3-000000?style=for-the-badge&logo=lightning&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </div>
 
 <br/>
