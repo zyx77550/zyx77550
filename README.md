@@ -16,6 +16,7 @@ A suite of interconnected B2B platforms built to operate autonomously:
 - **Residual Audit** — Automated technical & commercial web auditing engine (30+ OSINT sources, AI-driven reporting).
 - **Residual Reach** — High-performance B2B outreach & workflow automation.
 - **Residual Publish** — Data-driven, cross-platform SEO content generation.
+- **SPARDA** — In-process Model Context Protocol (MCP) server gateway and security engine for Express & FastAPI backends.
 - **Residual QR** — Dynamic tracking and analytics infrastructure.
 
 ## ⚙️ Engineering Philosophy
