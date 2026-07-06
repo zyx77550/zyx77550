@@ -11,17 +11,18 @@
 ## 🧠 About Me
 I build highly scalable, automated digital ecosystems. My work focuses on replacing repetitive workflows with intelligent, asynchronous systems. I design products with a strict adherence to security, performance, and clean architecture.
 
-## ⚡ Flagship Project: SPARDA (v0.12.0)
-[**SPARDA**](https://github.com/zyx77550/sparda) is the flagship open-source compiler, simulator and proof engine of Residual Labs.
+## ⚡ Flagship Project: SPARDA (v0.13.1)
+[**SPARDA**](https://github.com/zyx77550/sparda) is the flagship open-source compiler, simulator and proof engine of Residual Labs — "the LLVM of web applications".
 
-> **"Compile any backend into a deterministic behavior runtime."**
-> Map Express, FastAPI, Next.js, Prisma, or any OpenAPI spec into a behavioral graph (SBG) to run mock servers, verify security constraints, and connect AI agents locally.
+> **"Compile any backend into a deterministic behavior graph, then prove, replay, heal and serve it."**
+> Map Express, FastAPI, Next.js, Prisma, or any OpenAPI spec into a **Unified Behavior Graph (UBG)** — specified by SBIR — to run mock servers, prove security constraints, replay production bugs, and connect AI agents locally.
 
-* **ubg --openapi** : Compile Go, Java, Rails, Laravel, or .NET APIs into the graph format.
-* **mirror** : Host a mock HTTP simulation server directly from `ubg.json` (no code required, enforces guards).
-* **timeless** : Record production execution context and export error traces as Vitest unit tests to replay/fix bugs locally.
-* **apocalypse** : Statically prove route security and transactions in your CI/CD (SARIF format for GitHub Security).
-* **verify** : Prove compilation soundness and round-trip laws deterministically.
+* **apocalypse** : Statically *prove* a deploy is safe — no guard, invariant, transaction or aggregate broken (SARIF + GitHub Security).
+* **timeless** : Record a production request's nondeterminism, replay it byte-identically, export the bug as a Vitest test.
+* **heal** : Close the loop — bug → fix → the machine *proves* the fix is correct and breaks nothing.
+* **mirror** : Host a mock HTTP server directly from `ubg.json` — no code, no framework, enforces guards.
+* **ubg --openapi** : Compile Go, Java, Rails, Laravel, or .NET APIs into the graph via their OpenAPI spec.
+* **verify** : Prove the compiler's own laws (determinism, soundness, round-trip) on your app.
 
 ---
 
