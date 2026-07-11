@@ -11,16 +11,17 @@
 ## 🧠 About Me
 I build highly scalable, automated digital ecosystems. My work focuses on replacing repetitive workflows with intelligent, asynchronous systems. I design products with a strict adherence to security, performance, and clean architecture.
 
-## ⚡ Flagship Project: SPARDA (v0.13.1)
-[**SPARDA**](https://github.com/zyx77550/sparda) is the flagship open-source compiler, simulator and proof engine of Residual Labs — "the LLVM of web applications".
+## ⚡ Flagship Project: SPARDA (v0.14.0)
+[**SPARDA**](https://github.com/zyx77550/sparda) is the trust layer for AI-written code, developed by Residual Labs.
 
-> **"Compile any backend into a deterministic behavior graph, then prove, replay, heal and serve it."**
-> Map Express, FastAPI, Next.js, Prisma, or any OpenAPI spec into a **Unified Behavior Graph (UBG)** — specified by SBIR — to run mock servers, prove security constraints, replay production bugs, and connect AI agents locally.
+> **"AI writes. SPARDA proves."**
+> Compile Express, FastAPI, Next.js, Prisma, or any OpenAPI spec into a deterministic behavior graph to review every PR's behavior, prove security constraints, simulate APIs, and connect AI agents safely.
 
+* **review** : Diff every PR's behavior (guards dropped, blast radius grown, new endpoints) as a sticky comment in your CI.
 * **apocalypse** : Statically *prove* a deploy is safe — no guard, invariant, transaction or aggregate broken (SARIF + GitHub Security).
 * **timeless** : Record a production request's nondeterminism, replay it byte-identically, export the bug as a Vitest test.
 * **heal** : Close the loop — bug → fix → the machine *proves* the fix is correct and breaks nothing.
-* **mirror** : Host a mock HTTP server directly from `ubg.json` — no code, no framework, enforces guards.
+* **mirror** : Host a mock HTTP server directly from `ubg.json` — no code, no framework, enforces state machine and guards.
 * **ubg --openapi** : Compile Go, Java, Rails, Laravel, or .NET APIs into the graph via their OpenAPI spec.
 * **verify** : Prove the compiler's own laws (determinism, soundness, round-trip) on your app.
 
@@ -28,7 +29,7 @@ I build highly scalable, automated digital ecosystems. My work focuses on replac
 
 ## 🚀 The Residual Ecosystem
 A suite of interconnected B2B platforms built to operate autonomously:
-- [**SPARDA**](https://github.com/zyx77550/sparda) — Universal backend compiler, MCP bridge, and executable VM.
+- [**SPARDA**](https://github.com/zyx77550/sparda) — The trust layer for AI-written code, CLI proof engine, and MCP runtime.
 - [**Residual Audit**](https://audit.residual-labs.fr) — Automated technical & commercial web auditing engine (30+ OSINT sources, AI-driven reporting).
 - [**Residual Reach**](https://reach.residual-labs.fr) — High-performance B2B outreach & workflow automation.
 - [**Residual Publish**](https://publish.residual-labs.fr) — Data-driven, cross-platform SEO content generation.
