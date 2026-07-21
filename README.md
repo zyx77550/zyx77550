@@ -2,16 +2,16 @@
   <img src="logo.svg" alt="Residual Labs" width="220" />
   <br/>
   <h1>Zakaria Gharzouli</h1>
-  <h3>Solo Founder & Systems Architect @ <a href="https://residual-labs.fr">Residual Labs</a></h3>
-  <p><i>Architecting robust, zero-maintenance B2B SaaS ecosystems.</i></p>
+  <h3>Founder &amp; Principal Engineer @ <a href="https://residual-labs.fr">Residual Labs</a> · Systems &amp; Verification</h3>
+  <p><i>I build proof-grade tools for problems that can't afford to be wrong.<br/>We don't pitch — we prove.</i></p>
 </div>
 
 ---
 
 ## 🧠 About Me
-I build highly scalable, automated digital ecosystems. My work focuses on replacing repetitive workflows with intelligent, asynchronous systems. I design products with a strict adherence to security, performance, and clean architecture.
+I build **proof-grade tools**: deterministic, offline, and honest about their own limits — instruments that don't guess and never claim more than they can prove. Self-taught, proven by the work. My focus is **systems & verification** — making software provably correct where getting it wrong isn't an option.
 
-## ⚡ Flagship Project: SPARDA (v0.14.0)
+## ⚡ Flagship: SPARDA
 [**SPARDA**](https://github.com/zyx77550/sparda) is the trust layer for AI-written code, developed by Residual Labs.
 
 > **"AI writes. SPARDA proves."**
@@ -27,20 +27,17 @@ I build highly scalable, automated digital ecosystems. My work focuses on replac
 
 ---
 
-## 🚀 The Residual Ecosystem
-A suite of interconnected B2B platforms built to operate autonomously:
-- [**SPARDA**](https://github.com/zyx77550/sparda) — The trust layer for AI-written code, CLI proof engine, and MCP runtime.
-- [**Residual Audit**](https://audit.residual-labs.fr) — Automated technical & commercial web auditing engine (30+ OSINT sources, AI-driven reporting).
-- [**Residual Reach**](https://reach.residual-labs.fr) — High-performance B2B outreach & workflow automation.
-- [**Residual Publish**](https://publish.residual-labs.fr) — Data-driven, cross-platform SEO content generation.
-- [**Residual QR**](https://qr.residual-labs.fr) — Dynamic tracking and offline tracking analytics infrastructure.
+## 🚀 Residual Labs — the tool foundry
+Residual Labs builds proof-grade tools, one strong pain at a time. **SPARDA is the first instrument, not the last.**
+- [**SPARDA**](https://github.com/zyx77550/sparda) — The trust layer for AI-written code: CLI proof engine + agent edit-loop gate + MCP runtime.
+- *Earlier products* — [Residual Audit](https://audit.residual-labs.fr), [Reach](https://reach.residual-labs.fr), [Publish](https://publish.residual-labs.fr), [QR](https://qr.residual-labs.fr): the lab's first B2B tools, where the proof-grade discipline was forged.
 
 ---
 
 ## ⚙️ Engineering Philosophy
-- **Security First:** Strict Row-Level Security (RLS), Bring Your Own Key (BYOK) architecture, and AES-256-GCM encryption.
-- **Extreme Automation:** Complex workflows delegated to robust background engines.
-- **Zero-Bullshit UX:** Minimalist, functional, and fast interfaces.
+- **Prove, don't claim:** deterministic outputs, a soundness contract, never a false green.
+- **Honest about limits:** the tool reports its own blind spots and coverage — no overclaiming.
+- **Zero-Bullshit UX:** minimalist, functional, fast. Security first (RLS, BYOK, AES-256-GCM).
 
 ## 🛠️ Core Stack
 <div align="left">
