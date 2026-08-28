@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" alt="Residual Labs" width="220" />
+  <img src="./Residual-Labs_Lockup_Accent-LABS_sur-Sombre.svg" alt="Residual Labs" width="220" />
   <br/>
   <h1>Zakaria Gharzouli</h1>
   <h3>Founder &amp; Principal Engineer @ <a href="https://residual-labs.fr">Residual Labs</a> · Systems &amp; Verification</h3>
