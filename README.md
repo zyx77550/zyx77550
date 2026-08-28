@@ -34,6 +34,12 @@ test, and operate with confidence.
 
 ## SPARDA
 
+<p align="center">
+  <a href="https://github.com/zyx77550/sparda">
+    <img src="./assets/sparda/sparda-readme-banner-dark.png" alt="SPARDA — AI writes. SPARDA proves. Verification for AI-written code." width="100%" />
+  </a>
+</p>
+
 [**SPARDA**](https://github.com/zyx77550/sparda) is the verification layer for
 AI-written code.
 
@@ -44,10 +50,10 @@ It gives developers and AI agents a concrete model to inspect changes, verify
 constraints, simulate APIs, and trace what a system is allowed to do.
 
 <p>
-  <a href="https://github.com/zyx77550/sparda"><img alt="Repository" src="https://img.shields.io/badge/Repository-SPARDA-0B0B0A?style=flat-square&amp;logo=github&amp;logoColor=FFF9E8&amp;color=FF6600"></a>
-  <a href="https://www.npmjs.com/package/sparda-mcp"><img alt="npm version" src="https://img.shields.io/npm/v/sparda-mcp?style=flat-square&amp;label=npm&amp;labelColor=0B0B0A&amp;color=FF6600&amp;logo=npm&amp;logoColor=FFF9E8"></a>
-  <img alt="License BUSL 1.1" src="https://img.shields.io/badge/License-BUSL--1.1-FF6600?style=flat-square&amp;labelColor=0B0B0A">
-  <img alt="Offline by design" src="https://img.shields.io/badge/Runtime-Offline-FF6600?style=flat-square&amp;labelColor=0B0B0A">
+  <a href="https://github.com/zyx77550/sparda"><img alt="Repository" src="https://img.shields.io/badge/Repository-SPARDA-7809A6?style=flat-square&amp;logo=github&amp;logoColor=FFFFFF"></a>
+  <a href="https://www.npmjs.com/package/sparda-mcp"><img alt="npm version" src="https://img.shields.io/npm/v/sparda-mcp?style=flat-square&amp;label=npm&amp;labelColor=0C0A0F&amp;color=7809A6&amp;logo=npm&amp;logoColor=C9F75A"></a>
+  <img alt="License BUSL 1.1" src="https://img.shields.io/badge/License-BUSL--1.1-7809A6?style=flat-square&amp;labelColor=0C0A0F">
+  <img alt="Offline by design" src="https://img.shields.io/badge/Runtime-Offline-7809A6?style=flat-square&amp;labelColor=0C0A0F">
 </p>
 
 <table>
@@ -79,8 +85,30 @@ constraints, simulate APIs, and trace what a system is allowed to do.
   </tr>
 </table>
 
-SPARDA does not replace engineering judgement. It makes the system easier to
-inspect, question, and verify.
+SPARDA does not replace engineering judgement. It surfaces evidence, assumptions,
+unknowns, and declared constraints so the system is easier to inspect, question,
+and verify.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/sparda/sparda-code-to-evidence.png" alt="SPARDA turns declared behaviour into an inspectable deterministic graph" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/sparda/sparda-four-capabilities.png" alt="SPARDA Review, Verify, Replay and Mirror capabilities" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Conceptual product views — not output from a live run. No run metrics or deployment verdict are implied.</sub></p>
+
+<details>
+  <summary><strong>Terminal view — evidence without a deployment verdict</strong></summary>
+  <br/>
+  <p align="center">
+    <img src="./assets/sparda/sparda-terminal-evidence.png" alt="Conceptual SPARDA terminal view showing evidence, constraints and unknowns without a deployment verdict" width="72%" />
+  </p>
+</details>
 
 ---
 
