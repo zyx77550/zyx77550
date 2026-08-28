@@ -1,64 +1,77 @@
 <div align="center">
   <img src="./Residual-Labs_Lockup_Accent-LABS_sur-Sombre.svg" alt="Residual Labs" width="220" />
-  <br/>
-  <h1>Zakaria Gharzouli</h1>
-  <h3>Founder &amp; Principal Engineer @ <a href="https://residual-labs.fr">Residual Labs</a> · Systems &amp; Verification</h3>
-  <p><i>I build proof-grade tools for problems that can't afford to be wrong.<br/>We don't pitch — we prove.</i></p>
 </div>
+
+# Zakaria Gharzouli
+
+Founder & Principal Engineer at [Residual Labs](https://residual-labs.fr/)  
+**Systems · Verification · Applied AI**
+
+> *When the noise clears, the system remains.*
+
+I design software systems for work that cannot rely on approximation alone:
+tools that are inspectable, deterministic where it matters, and explicit about
+their limits.
+
+My work sits at the intersection of AI, software architecture, automation, and
+verification — turning complex behaviour into systems that teams can understand,
+test, and operate with confidence.
 
 ---
 
-## 🧠 About Me
-I build **proof-grade tools**: deterministic, offline, and honest about their own limits — instruments that don't guess and never claim more than they can prove. Self-taught, proven by the work. My focus is **systems & verification** — making software provably correct where getting it wrong isn't an option.
+## SPARDA
 
-## ⚡ Flagship: SPARDA
-[**SPARDA**](https://github.com/zyx77550/sparda) is the trust layer for AI-written code, developed by Residual Labs.
+[**SPARDA**](https://github.com/zyx77550/sparda) is the verification layer for
+AI-written code.
 
-> **"AI writes. SPARDA proves."**
-> Compile Express, FastAPI, Next.js, Prisma, or any OpenAPI spec into a deterministic behavior graph to review every PR's behavior, prove security constraints, simulate APIs, and connect AI agents safely.
+> **AI writes. SPARDA verifies.**
 
-* **review** : Diff every PR's behavior (guards dropped, blast radius grown, new endpoints) as a sticky comment in your CI.
-* **apocalypse** : Statically *prove* a deploy is safe — no guard, invariant, transaction or aggregate broken (SARIF + GitHub Security).
-* **timeless** : Record a production request's nondeterminism, replay it byte-identically, export the bug as a Vitest test.
-* **heal** : Close the loop — bug → fix → the machine *proves* the fix is correct and breaks nothing.
-* **mirror** : Host a mock HTTP server directly from `ubg.json` — no code, no framework, enforces state machine and guards.
-* **ubg --openapi** : Compile Go, Java, Rails, Laravel, or .NET APIs into the graph via their OpenAPI spec.
-* **verify** : Prove the compiler's own laws (determinism, soundness, round-trip) on your app.
+SPARDA compiles an application's declared behaviour into a deterministic graph.
+It gives developers and AI agents a concrete model to inspect changes, verify
+constraints, simulate APIs, and trace what a system is allowed to do.
+
+- **Review** — expose behavioural changes across pull requests: routes, guards,
+  invariants, transactions, and blast radius.
+- **Verify** — check declared constraints and compiler laws before deployment.
+- **Replay** — capture execution paths and replay nondeterministic failures for
+  debugging and regression tests.
+- **Mirror** — simulate APIs from the compiled behaviour graph, without
+  recreating the original application manually.
+- **Agent runtime** — connect AI agents to an explicit, controlled system model
+  through MCP.
+
+SPARDA does not replace engineering judgement. It makes the system easier to
+inspect, question, and verify.
 
 ---
 
-## 🚀 Residual Labs — the tool foundry
-Residual Labs builds proof-grade tools, one strong pain at a time. **SPARDA is the first instrument, not the last.**
-- [**SPARDA**](https://github.com/zyx77550/sparda) — The trust layer for AI-written code: CLI proof engine + agent edit-loop gate + MCP runtime.
-- *Earlier products* — [Residual Audit](https://audit.residual-labs.fr), [Reach](https://reach.residual-labs.fr), [Publish](https://publish.residual-labs.fr), [QR](https://qr.residual-labs.fr): the lab's first B2B tools, where the proof-grade discipline was forged.
+## Residual Labs
+
+[**Residual Labs**](https://residual-labs.fr/) is a laboratory of engineering,
+applied research, and digital systems.
+
+We build software, automation, and technical instruments for real operating
+environments — with clarity, rigour, and evidence over marketing claims.
+
+**Current work**
+
+- [**SPARDA**](https://github.com/zyx77550/sparda) — verification for
+  AI-written code
+- [**Residual Audit**](https://audit.residual-labs.fr/) — diagnostic tooling
+- [**Residual Reach**](https://reach.residual-labs.fr/) — visibility systems
+- [**Residual QR**](https://qr.residual-labs.fr/) — QR infrastructure
 
 ---
 
-## ⚙️ Engineering Philosophy
-- **Prove, don't claim:** deterministic outputs, a soundness contract, never a false green.
-- **Honest about limits:** the tool reports its own blind spots and coverage — no overclaiming.
-- **Zero-Bullshit UX:** minimalist, functional, fast. Security first (RLS, BYOK, AES-256-GCM).
+## Principles
 
-## 🛠️ Core Stack
-<div align="left">
-  <img src="https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trigger.dev%20V4-000000?style=for-the-badge&logo=lightning&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-</div>
+- Build for the real operating environment.
+- Make assumptions, boundaries, and blind spots visible.
+- Prefer verifiable outputs to confident claims.
+- Design systems that remain useful after the novelty fades.
 
-<br/>
+---
 
-<div align="center">
-  <a href="mailto:zakaria@residual-labs.fr">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/zakaria-gharzouli-05559a1a5/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://residual-labs.fr">
-    <img src="https://img.shields.io/badge/Website-018AC9?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
-  </a>
-</div>
+[Website](https://residual-labs.fr/) ·
+[LinkedIn](https://www.linkedin.com/in/zakaria-gharzouli-05559a1a5/) ·
+[Contact](mailto:contact@residual-labs.fr)
